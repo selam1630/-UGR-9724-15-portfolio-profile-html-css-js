@@ -4,66 +4,48 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Cv page</title>
+    <link rel="stylesheet" href="./css/index.css">
 </head>
 <body>
     <header class="header">
         <a href="" class="logo">Selamawit<span>Fikru</span></a>
-        <i class='bx bx-menu' id="menu-icon"></i>
         <nav class="navbar">
-         <a href="" class="active">Home</a>
-         <a href="" id="showabout">About me</a>
-         <a href="" id="showeducation">Education</a>
-         <a href="" id="showcv">Cv</a>
-         <a href="" id="showhobbies">Hobbies and Interests</a>
-         <a href="" id="showadvanture">Advantures</a>
-         <a href="" id="showcontact">Contact</a>
+               <img src="./icons/more (1).png" alt="" id="sidebar-toggle">
+            <a href="./Home.html" class="active">Home</a>
+            <a href="./About me.html" id="showabout">About me</a>
+            <a href="./Education.html" id="showeducation">Education</a>
+            <a href="./Cv.html" id="showcv">Cv</a>
+            <a href="./Hobbies and Interests.html" id="showhobbies">Hobbies and Interests</a>
+            <a href="./Advantures.html" id="showadvanture">Advantures</a>
+            <a href="./Contacts.html" id="showcontact">Contact</a>
         </nav>
     </header> 
-    <section id="cv">
-        <h2 class="heading">Curriculum Vitae</h2>
+     <section id="cv">
+        <div class="head">
+            <h2 class="heading">Curriculum</h2>
+            <h2 class="heading vi">Vitae</h2>
+        </div>
         <div class="containe">
-            <div class="gigi">
-                <div class="box">
-                    <div class="info">
-                        <h3>Education</h3>
-                        <ul>
-                            <li>
-                                <strong>Bachelor of Science in Software Engineering</strong><br>
-                                Addis Ababa University, Addis Ababa, Ethiopia<br>
-                                Expected Graduation: June 2027
-                            </li>
-                            <li>
-                                <strong>High School Diploma</strong><br>
-                                Fitche Secondary School, Addis Ababa, Ethiopia<br>
-                                Graduated: June 2022
-                            </li>
-                            <li>
-                                <strong>Elementary Education</strong><br>
-                                Abiyot Fire Elementary School, Addis Ababa, Ethiopia<br>
-                                Completed: June 2018
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-
-                <div class="box">
-                    <div class="info">
-                        <h3>Experience</h3>
-                        <ul>
-                            <li>
-                                <strong>Self-Learning Developer</strong><br>
-                                Summer Learning, Online Resources<br>
-                                Summer 2024<br>
-                                - Expanded my knowledge by joining a Telegram group focused on software development.<br>
-                                - Collaborated on several large projects with peers, enhancing my coding skills and understanding of best practices.<br>
-                                - Gained practical experience in building web applications.
-                            </li>
-                        </ul>
-                    </div>
+            
+            <div class="box2">
+                <div class="info">
+                    <h3>Education</h3>
+                    <ul>
+                        <li><strong>Bachelor of Science in Software Engineering</strong><br>Addis Ababa University, Addis Ababa, Ethiopia<br>Expected Graduation: June 2027</li>
+                        <li><strong>High School Diploma</strong><br>Fitche Secondary School, Addis Ababa, Ethiopia<br>Graduated: June 2022</li>
+                        <li><strong>Elementary Education</strong><br>Abiyot Fire Elementary School, Addis Ababa, Ethiopia<br>Completed: June 2018</li>
+                    </ul>
                 </div>
             </div>
-
-            <div class="box net">
+            <div class="box2">
+                <div class="info">
+                    <h3>Experience</h3>
+                    <ul>
+                        <li><strong>Self-Learning Developer</strong><br>Summer Learning, Online Resources<br>Summer 2024<br>- Expanded knowledge through Telegram groups.<br>- Collaborated on web app projects.<br>- Gained practical coding experience.</li>
+                    </ul>
+                </div>
+        </div>
+            <div class="net">
                 <div class="info">
                     <h3>Projects</h3>
                     <ul>
@@ -81,31 +63,30 @@
                         </li>
                     </ul>
                 </div>
-                <img src="images/photo_2024-11-24_17-35-45.jpg" alt="Project Screenshot">
+                <img src="images/photo_2024-11-24_17-35-45.jpg" alt="Project Screenshot" width="480px">
             </div>
-
-            <h3 class="three">Certificates</h3>
-            <ul class="evidence">
-                <li class="box web">
-                    <strong>Programming Fundamentals</strong><br>
-                    Issued by: Online Learning Platform, Date: October 2024
-                </li>
-            </ul>
-            <img src="./images/photo_2024-11-22_18-09-32.jpg" alt="Certificate in Web Development">
-            
-            <div class="">
+    
+            <div class="Certificate">
                 <div class="info">
-                    <h3>Skills</h3>
-                    <ul class="skill">
-                        <li>Programming Languages: JavaScript, Python, Java, HTML, CSS</li>
-                        <li>Frameworks: React, Node.js, Angular, Bootstrap</li>
-                        <li>Tools: Git, Visual Studio Code</li>
+                    <h3>Certificates</h3>
+                    <ul>
+                        <li>Programming Fundamentals<br>Issued: October 2024</li>
                     </ul>
+                </div>
+                <img src="images/photo_2024-11-22_18-09-32.jpg" alt="Certificate" width="480px">
+            </div>
+    
+            <div class="myskill">
+                <h3 class="skills">Skills</h3>
+                <div class="skill">
+                    <div class="bo">JavaScript, Python, Java</div>
+                    <div class="bo">React, Node.js, Angular</div>
+                    <div class="bo">Git, VS Code</div>
                 </div>
             </div>
         </div>
     </section>
-
+    
     <footer class="footer">
         <div class="social">
             <a href="https://www.linkedin.com/in/selamawit-fikru-4390b1339/">
@@ -117,16 +98,17 @@
             <a href="https://www.instagram.com/selam_f16/profilecard/?igsh=dHpsb2V3YW8zNmlo">
                 <img src="icons/instagram(1).png" alt="">
             </a>
-            <a href="@Selamfikru">
-                <img src="icons/telegram(1).png" alt="">
+            <a href="https://t.me/Selamfikru" target="_blank" rel="noopener noreferrer">
+                <img src="icons/telegram(1).png" alt="Telegram">
             </a>
         </div>
         <ul class="list">
-            <li><a href="#">FAQ</a></li>
-            <li><a href="#">About me</a></li>
-            <li><a href="#">Contacts</a></li>
+            <li><a href="">FAQ</a></li>
+            <li><a href="./About me.html">About me</a></li>
+            <li><a href="./Contacts.html">Contacts</a></li>
         </ul>
         <p class="copyright">@ selamawit fikru all rights are coserved</p>
     </footer>
+    <script src="./javascript/script.js"></script>
 </body>
 </html>

@@ -4,19 +4,20 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>About Me Page</title>
+    <link rel="stylesheet" href="./css/index.css">
 </head>
 <body>
     <header class="header">
         <a href="" class="logo">Selamawit<span>Fikru</span></a>
-        <i class='bx bx-menu' id="menu-icon"></i>
-        <nav class="navbar">
-            <a href="" class="active">Home</a>
-            <a href="" id="showabout">About me</a>
-            <a href="" id="showeducation">Education</a>
-            <a href="" id="showcv">Cv</a>
-            <a href="" id="showhobbies">Hobbies and Interests</a>
-            <a href="" id="showadvanture">Advantures</a>
-            <a href="" id="showcontact">Contact</a>
+        <nav class="navbar" id="navbar">
+            <img src="./icons/more (1).png" alt="" id="sidebar-toggle">
+            <a href="./Home.html" class="active">Home</a>
+            <a href="./About me.html" id="showabout">About me</a>
+            <a href="./Education.html" id="showeducation">Education</a>
+            <a href="./Cv.html" id="showcv">Cv</a>
+            <a href="./Hobbies and Interests.html" id="showhobbies">Hobbies and Interests</a>
+            <a href="./Advantures.html" id="showadvanture">Advantures</a>
+            <a href="./Contacts.html" id="showcontact">Contact</a>
         </nav>
     </header>
     <section id="about-me">
@@ -26,7 +27,7 @@
                 <div class="info">
                     <h3>Brief Biography</h3>
                     <p>
-                        Hello! My name is <span>Selamawit Fikru</span>, and I was born in <strong>Fitche, Selale</strong>. I am a third-year Software Engineering student at Addis Ababa University in Ethiopia.
+                        Hello! My name is Selamawit Fikru, and I was born in <strong>Fitche, Selale</strong>. I am a third-year Software Engineering student at Addis Ababa University in Ethiopia.
                         I have a passion for coding and enjoy building web applications that address real-world problems. 
                         I am excited to deepen my knowledge and skills in software development as I prepare for my future career. 
                         Outside of my studies, I love hiking, photography, and exploring new places.
@@ -44,7 +45,8 @@
                     </p>
                 </div>
             </div>
-        </div> 
+        </div>
+    </div> 
     </section>
     <footer class="footer">
         <div class="social">
@@ -57,16 +59,17 @@
             <a href="https://www.instagram.com/selam_f16/profilecard/?igsh=dHpsb2V3YW8zNmlo">
                 <img src="icons/instagram(1).png" alt="">
             </a>
-            <a href="@Selamfikru">
-                <img src="icons/telegram(1).png" alt="">
+            <a href="https://t.me/Selamfikru" target="_blank" rel="noopener noreferrer">
+                <img src="icons/telegram(1).png" alt="Telegram">
             </a>
         </div>
         <ul class="list">
             <li><a href="#">FAQ</a></li>
-            <li><a href="#">About me</a></li>
-            <li><a href="#">Contacts</a></li>
+            <li><a href="./About me.html">About me</a></li>
+            <li><a href="./Contacts.html">Contacts</a></li>
         </ul>
         <p class="copyright">@ selamawit fikru all rights are coserved</p>
     </footer>
+    <script src="./javascript/script.js"></script>
 </body>
 </html>
