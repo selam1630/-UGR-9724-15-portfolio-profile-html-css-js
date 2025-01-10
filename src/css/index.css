@@ -465,7 +465,7 @@ img {
             flex-wrap: wrap;
             gap: 2.5rem;
             justify-content: center;
-            padding: 0 1rem; /* Add padding to prevent elements from touching the edges */
+            padding: 0 1rem; 
         }
         
         .containe .box2 {
@@ -510,7 +510,7 @@ img {
             flex-wrap: wrap;
             align-items: flex-start;
             gap: 20px;
-            justify-content: center; /* Ensure proper alignment */
+            justify-content: center; 
         }
         
         .net img, .Certificate img {
@@ -522,7 +522,7 @@ img {
         
         .Certificate .info {
             margin-right: 0; 
-            text-align: center; /* Center-align the content */
+            text-align: center; 
         }
         
         .myskill {
@@ -789,15 +789,21 @@ img {
                     position: relative; 
                 }
                 .home-img img {
-                    position: absolute; 
-                    width: 44vw;
+                    
+                    width: 42vw;
                     max-width: 300px;
-                    top: -690px;
-                    right: 150px; 
+                    top: -450px;
+                    right: 380px; 
                 }
                 #sidebar-toggle{
                     margin-left: 220px;
                 }  
+                .home{
+                    margin-left: 270px;
+                }
+                .footer{
+                    width: 800px;
+                }
             }    
             @media (max-width: 767px) {
                 .container {
