@@ -801,10 +801,9 @@ img {
                 .home{
                     margin-left: 270px;
                 }
-                .footer{
-                    width: 800px;
                 }
-            }    
+                
+          
             @media (max-width: 767px) {
                 .container {
                     display: flex;
