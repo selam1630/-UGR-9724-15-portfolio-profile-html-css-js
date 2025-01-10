@@ -465,61 +465,76 @@ img {
             flex-wrap: wrap;
             gap: 2.5rem;
             justify-content: center;
+            padding: 0 1rem; /* Add padding to prevent elements from touching the edges */
         }
+        
         .containe .box2 {
             background-color: var(--main-color);
             border-radius: 20px;
             box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.25);
             width: 100%;
             max-width: 430px;
-            height: 300px;
+            height: auto; 
             padding: 20px;
             color: black;
             text-align: left;
             transition: transform 0.4s ease-in-out;
         }
+        
         .box2:hover {
             transform: scale(1.05);
             background-color: white;
             color: black;
             border: 5px solid var(--main-color);
         }
+        
         .info h3 {
             font-size: 2.5rem;
             margin-bottom: 15px;
+            text-align: center; 
         }
+        
         .info ul {
             padding: 0;
             list-style-type: none;
         }
+        
         .info ul li {
             font-size: 1.2rem;
             line-height: 1.8;
             margin-bottom: 10px;
         }
+        
         .net, .Certificate {
             display: flex;
             flex-wrap: wrap;
             align-items: flex-start;
             gap: 20px;
-            justify-content: center;
+            justify-content: center; /* Ensure proper alignment */
         }
+        
         .net img, .Certificate img {
             border-radius: 10px;
             max-width: 100%;
             height: auto;
+            margin: 0 auto; 
         }
-    .Certificate .info{
-        margin-right: 300px;
-    }
+        
+        .Certificate .info {
+            margin-right: 0; 
+            text-align: center; /* Center-align the content */
+        }
+        
         .myskill {
             text-align: center;
             margin-top: 40px;
         }
+        
         .skills {
             font-size: 2.5rem;
             color: var(--main-color);
         }
+        
         .skill {
             display: flex;
             flex-wrap: wrap;
@@ -527,6 +542,7 @@ img {
             justify-content: center;
             margin-top: 20px;
         }
+        
         .bo {
             background-color: var(--main-color);
             padding: 10px 15px;
@@ -537,19 +553,19 @@ img {
             height: 100px;
             width: 150px;
             display: flex;
-            flex-direction: column; 
-            justify-content: center; 
-            align-items: center; 
-            background-color: var(--main-color);
-            border-radius: 20px;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
             transition: transform 0.4s ease-in-out;
         }
+        
         .bo:hover {
             background-color: white;
             color: black;
             transform: scale(1.1);
             border: 5px solid var(--main-color);
         }
+        
          #adventure ul {
                                 list-style-type: none;
                                 padding: 0;
@@ -845,7 +861,7 @@ img {
             
                 .copyright {
                     font-size: 0.9rem;
-                    margin-left: 320px;
+                    margin-left: 390px;
                 }
             }
     @media (max-width: 1270px) {
@@ -1022,6 +1038,10 @@ img {
             margin-top: 40px;
             text-align: center;
         }
+        .copyright{
+            margin-left: 450px;
+        }
+        
     }
     
     @media (max-width: 1000px) {
@@ -1029,25 +1049,52 @@ img {
             display: flex;
         }
     }
-
-    @media (max-width: 767px) {
-        .skill {
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-        }
-        .footer{
-            width: 100%;
-        }
-    }
-    .hidden {
-        display: none;
+@media (max-width: 768px) {
+    .containe {
+        gap: 1.5rem; 
     }
 
+    .Certificate .info {
+        margin-right: 0;
+        text-align: center;
+    }
 
+    .net, .Certificate {
+        flex-direction: column; 
+        align-items: center;
+    }
+
+    .Certificate img, .net img {
+        max-width: 90%; 
+    }
+
+    .bo {
+        height: auto;
+        width: 100%; 
+    }
+    .skill {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        
+    }
+    .bo{
+        height: 100px;
+        width: 150px;
+    }
+    .head{
+        max-width: 767px;
+    }
+    .heading {
+        font-size: 2.2rem; 
+        margin-top: 60px;
+    }
+    .copyright{
+        margin-left: 450px;
+    }
+}
     @media (min-width: 767px) and (max-width: 1270px) {
         .containe {
-          
             align-items: center;
             gap: 2rem;
         }
